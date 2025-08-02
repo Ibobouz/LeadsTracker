@@ -1,19 +1,41 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Lead Tracker – Mobile Web App (PWA)
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+**Lead Tracker** is a lightweight Progressive Web App (PWA) designed to help users quickly save and revisit useful links on the go. Whether you're researching on mobile or just want to keep track of pages you like, Lead Tracker lets you save leads in one tap.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+##  Features
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- 📌 Save URLs directly from your phone
+- 📝 Add links manually via input field
+- 🗂️ View all saved leads in a clear list
+- 🧹 Delete all saved leads at once
+- 💾 Data stored locally via browser `localStorage`
+- 🌐 Installable as a PWA on Android and iOS
 
-Happy Coding!
+##  How to Use
+
+1. Create a Firebase Database
+2. Paste the Database Link in index.js/"databaseURL"
+3. Create a Netify Project with the files of this Repository
+4. Open the link of your Netify Project in your mobile browser.
+5. Add the app to your home screen (via "Add to Home Screen").
+6. Launch it like any other app.
+7. Use the input field or "Save Current Tab" to store a link.
+8. Tap on any saved lead to open it.
+
+## Technologies
+
+- HTML, CSS, JavaScript
+- Vite (build tool)
+- Google Firebase Database
+- PWA with `site.webmanifest` and mobile icons
+
+## 📁 Project Structure
+
+```bash
+├── index.html                  # Main HTML page
+├── index.js                    # Core logic
+├── index.css                   # Styling
+├── site.webmanifest            # PWA manifest
+├── icon.png / favicons         # App icons for different platforms
+├── vite.config.js              # Build configuration
+└── package.json                # Project metadata
